@@ -9,7 +9,7 @@
 import UIKit
 
 
-class FirstApp : UIViewController, UITextFieldDelegate {
+class Exercice : UIViewController, UITextFieldDelegate {
 
     @IBOutlet var enteredNumber : UITextField!
     @IBOutlet var buttonAnswer : UIButton!
