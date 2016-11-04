@@ -218,6 +218,8 @@
                     <connections>
                         <outlet property="buttonAnswer" destination="Cau-ME-LK6" id="F1h-1A-bMs"/>
                         <outlet property="enteredNumber" destination="ayL-YF-STh" id="DVf-nE-hkA"/>
+                        <outlet property="lConsigne" destination="dQo-fA-mrP" id="4Xx-QH-Ioi"/>
+                        <outlet property="lTitle" destination="sDU-VB-Dg6" id="0C5-ll-58g"/>
                         <outlet property="sliderButton" destination="g8T-ij-T13" id="jO5-Si-TbS"/>
                         <outlet property="stepperButton" destination="4zO-eF-1Lr" id="4AS-IN-UJJ"/>
                         <outlet property="viewTestPinchgesture" destination="C8J-1H-NlO" id="tja-pm-0qp"/>

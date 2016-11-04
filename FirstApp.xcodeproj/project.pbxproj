@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F854AFC51DCC96F300A04796 /* CalculExercie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F854AFC41DCC96F300A04796 /* CalculExercie.swift */; };
 		F8695CAE1DBF53B2002BDFF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8695CAD1DBF53B2002BDFF7 /* AppDelegate.swift */; };
 		F8695CB01DBF53B2002BDFF7 /* Exercice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8695CAF1DBF53B2002BDFF7 /* Exercice.swift */; };
 		F8695CB31DBF53B2002BDFF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8695CB11DBF53B2002BDFF7 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F854AFC41DCC96F300A04796 /* CalculExercie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculExercie.swift; sourceTree = "<group>"; };
 		F8695CAA1DBF53B2002BDFF7 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8695CAD1DBF53B2002BDFF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8695CAF1DBF53B2002BDFF7 /* Exercice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercice.swift; sourceTree = "<group>"; };
@@ -78,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F854AFC61DCCB5F700A04796 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8695CAF1DBF53B2002BDFF7 /* Exercice.swift */,
+				F88F5AA71DC9D4BD006B7EFB /* Accueil.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
 		F8695CA11DBF53B2002BDFF7 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +112,14 @@
 		F8695CAC1DBF53B2002BDFF7 /* FirstApp */ = {
 			isa = PBXGroup;
 			children = (
-				F8695CAD1DBF53B2002BDFF7 /* AppDelegate.swift */,
-				F8695CAF1DBF53B2002BDFF7 /* Exercice.swift */,
-				F8695CB11DBF53B2002BDFF7 /* Main.storyboard */,
-				F8695CB41DBF53B2002BDFF7 /* Assets.xcassets */,
-				F8695CB61DBF53B2002BDFF7 /* LaunchScreen.storyboard */,
 				F8695CB91DBF53B2002BDFF7 /* Info.plist */,
+				F8695CAD1DBF53B2002BDFF7 /* AppDelegate.swift */,
+				F854AFC41DCC96F300A04796 /* CalculExercie.swift */,
 				F87D95BC1DC33660007AB0C1 /* CustomizedButton.swift */,
-				F88F5AA71DC9D4BD006B7EFB /* Accueil.swift */,
+				F8695CB41DBF53B2002BDFF7 /* Assets.xcassets */,
+				F854AFC61DCCB5F700A04796 /* controllers */,
+				F8695CB61DBF53B2002BDFF7 /* LaunchScreen.storyboard */,
+				F8695CB11DBF53B2002BDFF7 /* Main.storyboard */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -270,6 +281,7 @@
 				F87D95BD1DC33660007AB0C1 /* CustomizedButton.swift in Sources */,
 				F88F5AA81DC9D4BD006B7EFB /* Accueil.swift in Sources */,
 				F8695CAE1DBF53B2002BDFF7 /* AppDelegate.swift in Sources */,
+				F854AFC51DCC96F300A04796 /* CalculExercie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

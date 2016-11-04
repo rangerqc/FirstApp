@@ -17,14 +17,25 @@ class Exercice : UIViewController, UITextFieldDelegate {
     @IBOutlet var stepperButton : UIStepper!
     @IBOutlet var viewTestPinchgesture : UIView!
     
+    @IBOutlet var lTitle : UILabel!
+    @IBOutlet var lConsigne : UILabel!
+    
     var autoState = false
     
-    var niveau : Int!
+    var calcule : CalculExercice!
+    
+    //var niveau : Int!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        enteredNumber.text = "\(niveau!)"
+        lTitle.text = "\(calcule.titre)"
+        lConsigne.text = "\(calcule.consigne) = ?"
+        
+        enteredNumber.text = "\(calcule.reponse)"
+        
+        stepperButton.value = Double(calcule.reponse)
+        sliderButton.setValue(Float(calcule.reponse), animated: true)
         
         enteredNumber.delegate = self
         
@@ -52,8 +63,8 @@ class Exercice : UIViewController, UITextFieldDelegate {
     @IBAction func clickAction(sender : UIButton) {
 
         if let result = enteredNumber.text, result != "" {
-            if Int(result) == 8 {
-                alert(title: "Excelent", message: "8 est bien le resultat!")
+            if Int(result) == calcule.reponse {
+                alert(title: "Excelent", message: "\(calcule.reponse) est bien le resultat!")
             } else {
                 alert(title: "Looser", message: "Mauvaise reponse")
             }

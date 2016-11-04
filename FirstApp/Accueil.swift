@@ -34,7 +34,8 @@ class Acccueil: UIViewController {
         
         let controller = storyboard.instantiateViewController(withIdentifier: "Exercice") as! Exercice
         
-        controller.niveau = sender.tag
+        //controller.niveau = sender.tag
+        controller.calcule = CalculExercice(difficulte: sender.tag)
         
         self.navigationController?.show(controller, sender: self)
     }
