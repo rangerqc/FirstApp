@@ -14,7 +14,6 @@
 		F8695CB81DBF53B2002BDFF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8695CB61DBF53B2002BDFF7 /* LaunchScreen.storyboard */; };
 		F8695CC31DBF53B2002BDFF7 /* FirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8695CC21DBF53B2002BDFF7 /* FirstAppTests.swift */; };
 		F8695CCE1DBF53B2002BDFF7 /* FirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8695CCD1DBF53B2002BDFF7 /* FirstAppUITests.swift */; };
-		F8695CDE1DBF5830002BDFF7 /* logocapitalmilhouse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8695CDD1DBF5830002BDFF7 /* logocapitalmilhouse.jpg */; };
 		F87D95BD1DC33660007AB0C1 /* CustomizedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87D95BC1DC33660007AB0C1 /* CustomizedButton.swift */; };
 		F88F5AA81DC9D4BD006B7EFB /* Accueil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88F5AA71DC9D4BD006B7EFB /* Accueil.swift */; };
 /* End PBXBuildFile section */
@@ -50,7 +49,6 @@
 		F8695CC91DBF53B2002BDFF7 /* FirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8695CCD1DBF53B2002BDFF7 /* FirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppUITests.swift; sourceTree = "<group>"; };
 		F8695CCF1DBF53B2002BDFF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8695CDD1DBF5830002BDFF7 /* logocapitalmilhouse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logocapitalmilhouse.jpg; sourceTree = SOURCE_ROOT; };
 		F87D95BC1DC33660007AB0C1 /* CustomizedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizedButton.swift; sourceTree = "<group>"; };
 		F88F5AA71DC9D4BD006B7EFB /* Accueil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accueil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,7 +105,6 @@
 				F8695CAF1DBF53B2002BDFF7 /* FirstApp.swift */,
 				F8695CB11DBF53B2002BDFF7 /* Main.storyboard */,
 				F8695CB41DBF53B2002BDFF7 /* Assets.xcassets */,
-				F8695CDD1DBF5830002BDFF7 /* logocapitalmilhouse.jpg */,
 				F8695CB61DBF53B2002BDFF7 /* LaunchScreen.storyboard */,
 				F8695CB91DBF53B2002BDFF7 /* Info.plist */,
 				F87D95BC1DC33660007AB0C1 /* CustomizedButton.swift */,
@@ -245,7 +242,6 @@
 				F8695CB81DBF53B2002BDFF7 /* LaunchScreen.storyboard in Resources */,
 				F8695CB51DBF53B2002BDFF7 /* Assets.xcassets in Resources */,
 				F8695CB31DBF53B2002BDFF7 /* Main.storyboard in Resources */,
-				F8695CDE1DBF5830002BDFF7 /* logocapitalmilhouse.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
