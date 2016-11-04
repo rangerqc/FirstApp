@@ -22,11 +22,7 @@ class Acccueil: UIViewController {
         navigationController?.navigationBar.barTintColor = UIColor.yellow
 
         
-        
-//        navigationItem.backBarButtonItem?.title = "Maison"
-
-        
-        // On change bouton back ici sinon il est instancié sur la page
+        // On change bouton back ici sinon il est instancié sur la page accueil avec le libelle de la nav barre
         navigationItem.backBarButtonItem = UIBarButtonItem(title:"Maison", style: .plain, target:nil, action:nil)
 
     }
@@ -36,9 +32,10 @@ class Acccueil: UIViewController {
         
         let storyboard = UIStoryboard(name : "Main", bundle : nil)
         
-        let controller = storyboard.instantiateViewController(withIdentifier: "FirstApp") as! FirstApp
+        let controller = storyboard.instantiateViewController(withIdentifier: "Exercice") as! Exercice
         
-        controller.niveau = sender.tag
+        //controller.niveau = sender.tag
+        controller.calcule = CalculExercice(difficulte: sender.tag)
         
         self.navigationController?.show(controller, sender: self)
     }
