@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F854AFC51DCC96F300A04796 /* CalculExercie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F854AFC41DCC96F300A04796 /* CalculExercie.swift */; };
 		F8695CAE1DBF53B2002BDFF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8695CAD1DBF53B2002BDFF7 /* AppDelegate.swift */; };
-		F8695CB01DBF53B2002BDFF7 /* FirstApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8695CAF1DBF53B2002BDFF7 /* FirstApp.swift */; };
+		F8695CB01DBF53B2002BDFF7 /* Exercice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8695CAF1DBF53B2002BDFF7 /* Exercice.swift */; };
 		F8695CB31DBF53B2002BDFF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8695CB11DBF53B2002BDFF7 /* Main.storyboard */; };
 		F8695CB51DBF53B2002BDFF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8695CB41DBF53B2002BDFF7 /* Assets.xcassets */; };
 		F8695CB81DBF53B2002BDFF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8695CB61DBF53B2002BDFF7 /* LaunchScreen.storyboard */; };
 		F8695CC31DBF53B2002BDFF7 /* FirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8695CC21DBF53B2002BDFF7 /* FirstAppTests.swift */; };
 		F8695CCE1DBF53B2002BDFF7 /* FirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8695CCD1DBF53B2002BDFF7 /* FirstAppUITests.swift */; };
-		F8695CDE1DBF5830002BDFF7 /* logocapitalmilhouse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8695CDD1DBF5830002BDFF7 /* logocapitalmilhouse.jpg */; };
 		F87D95BD1DC33660007AB0C1 /* CustomizedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87D95BC1DC33660007AB0C1 /* CustomizedButton.swift */; };
 		F88F5AA81DC9D4BD006B7EFB /* Accueil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88F5AA71DC9D4BD006B7EFB /* Accueil.swift */; };
 /* End PBXBuildFile section */
@@ -37,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F854AFC41DCC96F300A04796 /* CalculExercie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculExercie.swift; sourceTree = "<group>"; };
 		F8695CAA1DBF53B2002BDFF7 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8695CAD1DBF53B2002BDFF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F8695CAF1DBF53B2002BDFF7 /* FirstApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstApp.swift; sourceTree = "<group>"; };
+		F8695CAF1DBF53B2002BDFF7 /* Exercice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercice.swift; sourceTree = "<group>"; };
 		F8695CB21DBF53B2002BDFF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8695CB41DBF53B2002BDFF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8695CB71DBF53B2002BDFF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		F8695CC91DBF53B2002BDFF7 /* FirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8695CCD1DBF53B2002BDFF7 /* FirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppUITests.swift; sourceTree = "<group>"; };
 		F8695CCF1DBF53B2002BDFF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8695CDD1DBF5830002BDFF7 /* logocapitalmilhouse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logocapitalmilhouse.jpg; sourceTree = SOURCE_ROOT; };
 		F87D95BC1DC33660007AB0C1 /* CustomizedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizedButton.swift; sourceTree = "<group>"; };
 		F88F5AA71DC9D4BD006B7EFB /* Accueil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accueil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F854AFC61DCCB5F700A04796 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8695CAF1DBF53B2002BDFF7 /* Exercice.swift */,
+				F88F5AA71DC9D4BD006B7EFB /* Accueil.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
 		F8695CA11DBF53B2002BDFF7 = {
 			isa = PBXGroup;
 			children = (
@@ -103,15 +112,14 @@
 		F8695CAC1DBF53B2002BDFF7 /* FirstApp */ = {
 			isa = PBXGroup;
 			children = (
-				F8695CAD1DBF53B2002BDFF7 /* AppDelegate.swift */,
-				F8695CAF1DBF53B2002BDFF7 /* FirstApp.swift */,
-				F8695CB11DBF53B2002BDFF7 /* Main.storyboard */,
-				F8695CB41DBF53B2002BDFF7 /* Assets.xcassets */,
-				F8695CDD1DBF5830002BDFF7 /* logocapitalmilhouse.jpg */,
-				F8695CB61DBF53B2002BDFF7 /* LaunchScreen.storyboard */,
 				F8695CB91DBF53B2002BDFF7 /* Info.plist */,
+				F8695CAD1DBF53B2002BDFF7 /* AppDelegate.swift */,
+				F854AFC41DCC96F300A04796 /* CalculExercie.swift */,
 				F87D95BC1DC33660007AB0C1 /* CustomizedButton.swift */,
-				F88F5AA71DC9D4BD006B7EFB /* Accueil.swift */,
+				F8695CB41DBF53B2002BDFF7 /* Assets.xcassets */,
+				F854AFC61DCCB5F700A04796 /* controllers */,
+				F8695CB61DBF53B2002BDFF7 /* LaunchScreen.storyboard */,
+				F8695CB11DBF53B2002BDFF7 /* Main.storyboard */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -245,7 +253,6 @@
 				F8695CB81DBF53B2002BDFF7 /* LaunchScreen.storyboard in Resources */,
 				F8695CB51DBF53B2002BDFF7 /* Assets.xcassets in Resources */,
 				F8695CB31DBF53B2002BDFF7 /* Main.storyboard in Resources */,
-				F8695CDE1DBF5830002BDFF7 /* logocapitalmilhouse.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,10 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8695CB01DBF53B2002BDFF7 /* FirstApp.swift in Sources */,
+				F8695CB01DBF53B2002BDFF7 /* Exercice.swift in Sources */,
 				F87D95BD1DC33660007AB0C1 /* CustomizedButton.swift in Sources */,
 				F88F5AA81DC9D4BD006B7EFB /* Accueil.swift in Sources */,
 				F8695CAE1DBF53B2002BDFF7 /* AppDelegate.swift in Sources */,
+				F854AFC51DCC96F300A04796 /* CalculExercie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
